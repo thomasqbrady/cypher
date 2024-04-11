@@ -46,7 +46,7 @@
 	}
 </script>
 <div class="p-4">
-	<h1 class="h1 text-6xl">Cypher</h1>
+	<h1 class="h1 text-6xl">Caesar</h1>
 	<button type="button" class="btn-icon bg-gradient-to-br variant-gradient-primary-secondary fixed top-4 right-4" on:click={reset}><IconSparkles/></button>
 
 	<RangeSlider class="mb-8" name="cypherkey" bind:value={cypherKey} min={1} max={26} step={1} ticked><span class="text-2xl">Key: {cypherKeyLetter}</span></RangeSlider>
