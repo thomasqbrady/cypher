@@ -6,5 +6,8 @@ export default defineConfig({
 	plugins: [
 		sveltekit(), 
 		purgeCss()
-	]
+	],
+	server: {
+		port: 3000
+	}
 });
